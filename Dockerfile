@@ -1,4 +1,4 @@
-FROM ruby:2.7.1
+FROM ruby:2.7.2
 LABEL maintainer="Xavi Ablaza <xavi@makisu.co>"
 
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
@@ -22,7 +22,7 @@ ENV BUNDLE_GEMFILE=$APP/Gemfile \
   PATH=./bin:$PATH \
   RAILS_ENV=production \
   NODE_ENV=production \
-  SECRET_KEY_BASE=4e2ba1cf3ffc0cd4f5c5b2efed22adab6e0d5157b1129af4891248e4a7edadb1339f12330550f898ce355dc84c1d28e1063125ed815f3158588d6fb76971bf0c
+  SECRET_KEY_BASE=dummy
 
 RUN mkdir $BUNDLE_PATH
 
