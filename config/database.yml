@@ -1,6 +1,6 @@
 development: &default
   adapter: postgresql
-  database: isameter_development
+  database: rails_app_development
   encoding: utf8
   min_messages: warning
   pool: <%= Integer(ENV.fetch("DB_POOL", 5)) %>
@@ -12,7 +12,7 @@ development: &default
 
 test:
   <<: *default
-  database: isameter_test
+  database: rails_app_test
 
 production: &deploy
   adapter: postgresql
