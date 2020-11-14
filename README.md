@@ -1,4 +1,4 @@
-# Mgp accounting
+# rails_app
 
 ## Getting Started
 
@@ -12,25 +12,15 @@ your machine with [this script].
 
 [this script]: https://github.com/thoughtbot/laptop
 
-After setting up, you can run the application using [Heroku Local]:
-
-    % heroku local
-
-[Heroku Local]: https://devcenter.heroku.com/articles/heroku-local
-
 ## Guidelines
 
 Use the following guides for getting things done, programming well, and
 programming in style.
 
-* [Protocol](http://github.com/thoughtbot/guides/blob/master/protocol)
-* [Best Practices](http://github.com/thoughtbot/guides/blob/master/best-practices)
-* [Style](http://github.com/thoughtbot/guides/blob/master/style)
+* [Protocol](https://github.com/thoughtbot/guides/#protocols)
+* [Ruby](https://github.com/thoughtbot/guides/tree/main/ruby)
+* [Rails](https://github.com/thoughtbot/guides/tree/main/rails)
 
 ## Deploying
 
-If you have previously run the `./bin/setup` script,
-you can deploy to staging and production with:
-
-    % ./bin/deploy staging
-    % ./bin/deploy production
+Write deployment instructions here
