@@ -15,7 +15,7 @@ gem "honeybadger"
 gem "pg"
 gem "puma"
 gem "rack-canonical-host"
-gem "rails", "~> 6.0.3.2"
+gem "rails", "~> 6.1.0"
 gem "recipient_interceptor"
 gem "sassc-rails"
 gem "skylight"
@@ -46,13 +46,11 @@ group :test do
   gem "webmock"
 end
 
-gem "suspenders", group: [:development, :test]
-
 gem 'oj'
 gem 'high_voltage'
 gem 'bourbon', '>= 6.0.0'
 gem 'spring-commands-rspec', group: :development
-gem 'rspec-rails', '~> 3.6', group: [:development, :test]
+gem 'rspec-rails', '~> 4.0.2', group: [:development, :test]
 gem 'shoulda-matchers', group: :test
 gem 'capybara-selenium', group: :test
 gem 'webdrivers', group: :test
